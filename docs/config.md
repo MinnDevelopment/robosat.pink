@@ -42,8 +42,8 @@
   # Learning rate for the optimizer
   #lr = 0.000025
 
-  # Model internal input tile size [W, H]
-  #ts = [512, 512]
+  # Model internal input tile size [W=ts, H=ts]
+  #ts = 512
 
   # Dataset loader name
   loader = "SemSegTiles"
