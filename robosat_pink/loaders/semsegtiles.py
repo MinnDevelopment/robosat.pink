@@ -18,6 +18,8 @@ class SemSegTiles(torch.utils.data.Dataset):
 
         assert mode == "train" or mode == "predict"
 
+        ts = (ts, ts)
+
         num_channels = 0
         self.tiles = {}
         for channel in config["channels"]:

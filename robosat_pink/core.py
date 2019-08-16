@@ -43,7 +43,7 @@ def load_config(path):
         config["model"] = {}
 
     if "ts" not in config["model"].keys():
-        config["model"]["ts"] = (512, 512)
+        config["model"]["ts"] = 512
 
     if "pretrained" not in config["model"].keys():
         config["model"]["pretrained"] = True
